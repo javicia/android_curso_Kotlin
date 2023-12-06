@@ -1,4 +1,4 @@
-package com.javier.cursoKotlin.exercises
+package exercises
 
 class Exercices2 {
 

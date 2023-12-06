@@ -1,4 +1,4 @@
-package com.javier.cursoKotlin.exercises
+package exercises
 
 /**
 Por lo general, el teléfono te proporciona un resumen de las notificaciones.
