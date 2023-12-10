@@ -17,4 +17,10 @@
     <color name="title_text">#FF808E98</color>
 
 
+    <color name="under_weight">#FFEB3B</color>
+    <color name="normal_weight">#4CAF50</color>
+    <color name="over_weight">#F44336</color>
+    <color name="obesity">#C10606</color>
+
+
 </resources>
