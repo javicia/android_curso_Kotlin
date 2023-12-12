@@ -7,7 +7,7 @@ import com.javier.cursokotlin.R
 import todoApp.sealed.Category
 import todoApp.viewHolder.CategoriesViewHolder
 
-class CategoriesAdapter(private val categories:List<Category>):RecyclerView.Adapter<CategoriesViewHolder>() {
+class CategoriesAdapter(private val categories:List<Category>, private val onItemSelected:(Int)->Unit):RecyclerView.Adapter<CategoriesViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CategoriesViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.item_task_categories, parent, false)
         return CategoriesViewHolder(view)
@@ -17,6 +17,6 @@ class CategoriesAdapter(private val categories:List<Category>):RecyclerView.Adap
 
 
     override fun onBindViewHolder(holder: CategoriesViewHolder, position: Int) {
-        holder.render(categories[position])
+        holder.render(categories[position], onItemSelected)
     }
 }

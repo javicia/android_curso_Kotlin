@@ -27,5 +27,10 @@
     <string name="todo_title">Bienvenid@as</string>
     <string name="todo_category">Categorías</string>
     <string name="todo_tasks">Tareas</string>
+    <string name="todo_dialog_add_rask">Añadir tarea</string>
+    <string name="todo_dialog_bussiness">Negocios</string>
+    <string name="todo_dialog_personal">Personal</string>
+    <string name="todo_dialog_other">Otros</string>
+    <string name="todo_dialog_btnAddTask">Crear Tarea</string>
 
 </resources>
